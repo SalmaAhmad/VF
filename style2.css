@@ -1,12 +1,13 @@
 h4{
   padding: 100px;
-  margin-left: 100px;
+  text-align: center;
 }
 #pic{
   display: block;
   margin-left: auto;
   margin-right: auto;
   width: 50%;
+  border-radius: 10%;
 }
 #introduction{
   text-align: center;
@@ -14,23 +15,54 @@ h4{
 
 .list{
   font-size: 24px;
+  font-family: garamond,sans-serif;
 }
+/*
 h4::first-letter{
   display: block;
   float: left;
   margin: 2px;
   margin-top: 1px;
   margin-left: 3px;
-  color: red;
+  margin-bottom: 5px;
+  color:rgb(51, 0, 102);
+  font-family: garamond,sans-serif;
+  font-weight: bold;
   font-size: 200%;
 }
+*/
+
 body {
-  background-image: url("nature.jpg");
-  background-color: blue;
+  background-image: url("untitled design.png");
+  background-color: rgb(255, 230, 204);
   background-repeat: no-repeat;
   background-size: cover;
-  
+
 }
 .list{
   font-weight: bold;
+}
+h4{
+    font-family: garamond,sans-serif;
+    font-weight: bold;
+    font-size: 29px;
+}
+h1{
+  font-family: garamond,sans-serif;
+  font-weight: bold;
+  font-size: 30px;
+  text-align: center;
+  margin-top: 80px;
+  margin-bottom: 50px;
+}
+.paragraphs{
+  font-family: garamond,sans-serif;
+  font-size: 23px;
+  text-align: justify;
+}
+#final{
+  font-family: garamond,sans-serif;
+  font-size: 20px;
+  text-align: center;
+
 }

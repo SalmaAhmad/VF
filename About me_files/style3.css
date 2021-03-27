@@ -26,8 +26,8 @@
   color: white;
 }
 html{
-  background-image: linear-gradient(to right, red , yellow);
-  background-color: rgb(26, 0, 51);
+  background-image: url("homepage.png");!important;
+  background-color: rgb(255, 230, 204);
   background-repeat: no-repeat;
   background-size: cover;
 
